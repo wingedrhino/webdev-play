@@ -16,5 +16,7 @@ Eventually I intend to also figure out other stuff like a couple of frontend
 frameworks (I'm eyeing [Vue.js](https://vuejs.org) most keenly) and maybe write
 a simple CMS-like app in Go that would power a basic site.
 
+## View It Online
 
-
+This entire directory is static hosted via a `python3 -m http.server` and it is
+accessible on the port 8000 at aruba dot myelin42 dot net.
