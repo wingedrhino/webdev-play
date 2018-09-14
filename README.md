@@ -18,5 +18,9 @@ a simple CMS-like app in Go that would power a basic site.
 
 ## View It Online
 
-This entire directory is static hosted via a `python3 -m http.server` and it is
-accessible on the port 8000 at aruba dot myelin42 dot net.
+Site at [webdev-play.aruba.myelin42.net](https://webdev-play.aruba.myelin42.net/)
+
+It is just NGINX acting as a static file server and file browser, secured by
+Let's Encrypt. The server is pointed to this repository's root and thus all you
+can see at first load is a file browser. Click the sub-directories there that
+correspond to sub-directories in this repository!

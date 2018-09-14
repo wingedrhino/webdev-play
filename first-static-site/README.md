@@ -14,4 +14,6 @@ The deviations I took from the course were the following:
 
 For now there's a simple home page and nothing more.
 
+## View It Online
 
+[Go here!](https://webdev-play.aruba.myelin42.net/first-static-site/)
