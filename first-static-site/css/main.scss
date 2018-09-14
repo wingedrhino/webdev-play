@@ -1,7 +1,7 @@
-$defaultColor: rgb(217, 226, 191);
+$defaultColor: rgb(191, 215, 226);
 $fontColor: darken($defaultColor, 50%);
-$linkColor: darken($defaultColor, 40%);
-$linkColorHover: darken($defaultColor, 60%);
+$linkColor: darken($defaultColor, 45%);
+$linkColorHover: darken($defaultColor, 65%);
 $headerColor1: lighten($defaultColor, 20%);
 $headerColor2: darken($defaultColor, 20%);
 $headerGradientDeg: 0deg;
@@ -37,6 +37,14 @@ footer {
 header {
   padding-top: 2em;
   background-image: linear-gradient($headerGradientDeg, $headerColor1, $headerColor2);
+  background-size: 400% 400%;
+  animation: WaveHeader 27s ease infinite;
+
+  @keyframes WaveHeader {
+    0%{background-position: 50%, 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+  }
 
   .banner {
 
