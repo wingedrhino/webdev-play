@@ -22,7 +22,7 @@ a {
   color: $linkColor;
 }
 
-a:hover {
+a:hover, a:active {
   color: $linkColorHover;
 }
 
@@ -65,7 +65,7 @@ header {
         transition-duration: 0.5s;
       }
 
-      h1:hover {
+      h1:hover, h1:active {
         letter-spacing: 0.125em;
       }
     }

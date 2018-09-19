@@ -7,7 +7,7 @@ a {
   color: #335c6f;
 }
 
-a:hover {
+a:hover, a:active {
   color: #1b313b;
 }
 
@@ -84,7 +84,7 @@ header .banner .title h1 {
           transition-duration: 0.5s;
 }
 
-header .banner .title h1:hover {
+header .banner .title h1:hover, header .banner .title h1:active {
   letter-spacing: 0.125em;
 }
 
