@@ -159,6 +159,7 @@ nav section.primary ul li {
 
 nav section.primary ul li a {
   padding: 0.5em;
+  text-decoration: none;
 }
 
 nav section.primary ul li:last-child {
@@ -182,7 +183,20 @@ nav section.social {
 }
 
 nav section.social ul li {
-  font-size: 200%;
+  font-size: 210%;
+}
+
+nav section.social ul li a {
+  -webkit-transition-property: color, font-size;
+  transition-property: color, font-size;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+@media (min-width: 767.98px) {
+  nav section.social ul li a:hover {
+    font-size: 110%;
+  }
 }
 
 .container2 {
