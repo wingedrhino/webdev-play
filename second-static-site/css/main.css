@@ -78,6 +78,14 @@ header .banner .title h1 {
   display: block;
   padding: 0.6em;
   font-family: Monoton, cursive;
+  -webkit-transition-property: letter-spacing;
+  transition-property: letter-spacing;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+header .banner .title h1:hover {
+  letter-spacing: 0.125em;
 }
 
 header .banner p {

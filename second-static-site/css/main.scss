@@ -61,6 +61,12 @@ header {
         display: block;
         padding: 0.6em;
         font-family: Monoton, cursive;
+        transition-property: letter-spacing;
+        transition-duration: 0.5s;
+      }
+
+      h1:hover {
+        letter-spacing: 0.125em;
       }
     }
 
