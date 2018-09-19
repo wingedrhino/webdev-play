@@ -174,7 +174,7 @@ nav section.primary ul li:last-child {
   margin-right: 0em;
 }
 
-nav section.primary ul li:hover {
+nav section.primary ul li:hover li:active {
   color: #1b313b;
   background-color: rgba(86, 149, 178, 0.7);
 }
@@ -202,7 +202,7 @@ nav section.social ul li a {
 }
 
 @media (min-width: 767.98px) {
-  nav section.social ul li a:hover {
+  nav section.social ul li a:hover a:active {
     font-size: 110%;
   }
 }

@@ -139,7 +139,7 @@ nav {
         margin-right: 0em;
       }
 
-      li:hover {
+      li:hover li:active {
         color: $linkColorHover;
         background-color: transparentize(darken($defaultColor, 30%), 0.3);
       }
@@ -164,7 +164,7 @@ nav {
       }
 
       @media(min-width: $smallScreenBreak) {
-        a:hover {
+        a:hover a:active {
           font-size: 110%;
         }
       }
