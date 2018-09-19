@@ -13,7 +13,7 @@ $oddSectionColor: lighten($defaultColor, 22%);
 $borderWidth: 0.05rem;
 $smallScreenBreak: 767.98px;
 
-html {
+body {
   font-family: 'Roboto', sans-serif;
   color: $fontColor;
 }
