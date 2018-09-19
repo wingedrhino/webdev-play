@@ -7,6 +7,7 @@
   "author": "The Winged Rhino",
   "license": " LGPL-3.0-or-later",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "bootstrap": "~4.1"
   }
 }
